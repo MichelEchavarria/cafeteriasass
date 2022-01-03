@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Pacifico:wght@400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <link rel="stylesheet" href="build/css/style.css">
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <title>CafeTime</title>
+</head>
+<body>
+  <header class="container-xl header">
+    <div class="row align-items-center">
+      
+      <div class="col-md-6 mb-5 mb-md-0">
+        <span class="text-primary">CafeTime</span>
+        <h1 class="display-2">
+         Disfruta, el cafe del momento
+        </h1>
+        <p class="fs-3">
+          Visita nuestros locales y disfruta el placer del mejor cafe en compañia de tus amigos.
+        </p>
+        <a href="#" class="btn btn-primary">Conoce más</a>
+      </div>
+      <div class="col-md-6">
+        <img class="img-fluid" src="img/header.jpg" alt="imagen de cafe header">
+      </div>
+    </div>
+  </header>
+
+  <section class="container-xl">
+    <h2 class="fs-1 text-center">Nuestros Productos</h2>
+    <!-- w-50 asigna un width del 50% relativo del padre-->
+    <p class="text-center w-50 mx-auto">Fabricamos todos nuestros productos con ingredientes naturales y la mejor calidad.
+    </p>
+    <div class="row mt-5">
+
+        <div class="col-md-4 justify-content-center">
+          <figure >
+            <img class="img-fluid" src="img/figura3.png" alt="imagen icono" >
+          </figure>
+          
+            <h3 class="text-secondary text-center fs-4">Pasteleria de autor</h3>
+            <p class="text-center">Tradición y sabor, es lo que se puede encontrar en las recetas de nuestra afamada pasteleria</p>
+        </div>
+
+        <div class="col-md-4" >
+          <figure  >
+            <img class=" img-fluid" src="img/figura2.png" alt="imagen icono" >
+          </figure>
+            <h3 class="text-secondary text-center fs-4">Baristas profesionales</h3>
+            <p class="text-center">Nuestos baristas tienen años de experiencia y preparan cada café con toda pasión.</p>
+        </div>
+
+        <div class="col-md-4">
+          <figure >
+            <img class="img-fluid" src="img/pan.png" alt="imagen icono" >
+          </figure>
+            <h3 class="text-secondary text-center fs-4">La Sanguchera</h3>
+            <p class="text-center">Contamos con los mejores sándwich hechos con pan casero</p>
+        </div>
+    </div>
+    <!-- my aplica arriba y abajo-->
+    <div class="d-flex justify-content-center my-5">
+        <a href="#" class="btn btn-secondary text-white">Más Información</a>
+    </div>
+
+</section>
+
+<main class="container locales my-5">
+
+  <div class="d-flex justify-content-between">
+    <h2>Nuestros Locales</h2>
+    <a href="#" class="text-decoration-none d-none d-sm-block">exploradora mas locales</a>
+  </div>
+
+     <!-- cards -->
+  <div class="row mt-4">
+     
+  <div class="col-md-6 col-lg-3">
+   <div class="card">
+      <img class="card-img-top" src="img/photo1jpg.jpeg" alt="local 1">
+      <div class="card-body">
+      <p class="card-text fw-bold horarios"> lu. a vie. desde 10:00 a 22:00 hrs.</p>
+      <h3 class="card-title fs-5">Santiago </h3>
+      <p class="card-text descripcion">Av. Andrés Bello 2325, Providencia. Santiago, Chile</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-6 col-lg-3">
+    <div class="card">
+       <img class="card-img-top" src="https://media-cdn.tripadvisor.com/media/photo-s/16/a6/51/5f/restaurant-cafeteria.jpg" alt="local 2">
+       <div class="card-body">
+       <p class="card-text fw-bold horarios"> lu. a vie. desde 10:00 a 22:00 hrs.</p>
+       <h3 class="card-title fs-5"> Iquique  </h3>
+       <p class="card-text descripcion">Avenida Arturo Prat 3068 Local 3, Iquique, Chile</p>
+       </div>
+     </div>
+   </div>
+
+   <div class="col-md-6 col-lg-3">
+    <div class="card">
+       <img class="card-img-top" src="img/local2.jpeg" alt="local 3">
+       <div class="card-body">
+       <p class="card-text fw-bold horarios"> lu. a vie. desde 10:00 a 22:00 hrs.</p>
+       <h3 class="card-title fs-5">Valparaiso </h3>
+       <p class="card-text descripcion">Almte. Montt 399, Valparaíso, Cerro Alegre, Valparaíso, Chile</p>
+       </div>
+     </div>
+   </div>
+
+   <div class="col-md-6 col-lg-3">
+    <div class="card">
+       <img class="card-img-top" src="img/local4.jpeg" alt="local 4">
+       <div class="card-body">
+       <p class="card-text fw-bold horarios"> lu. a vie. desde 10:00 a 22:00 hrs.</p>
+       <h3 class="card-title fs-5">Puerto Montt </h3>
+       <p class="card-text descripcion">Aníbal Pinto 340, Puerto Montt, Los Lagos, Chile</p>
+       </div>
+     </div>
+   </div>
+
+  </div>
+      <!-- /cards -->
+  
+<!-- aplicacion moviles -->
+<section class="app-movil container mt-5">
+  <div class="row">
+    <div class="offset-md-4 col-md-4">
+      <span class="d-block mx-auto text-primary">CafeTime</span>
+      <p class="text-center fw-bold mt-5 fs-4">Mantente conectado. descarga Coffe time App</p>
+     <div class="d-flex gap-4">
+
+      <div class="col">
+        <a href="#">
+          <img class="img-fluid" src="img/svg/tienda-android.svg" alt="imagen apple store">
+        </a>
+      </div>
+
+      <div class="col">
+        <a href="#">
+          <img class="img-fluid" src="img/svg/tienda-apple.svg" alt="imagen apple store">
+          
+        </a>
+      </div>
+
+     </div> 
+
+    </div>
+
+  </div>
+</section>
+<!-- /aplicacion moviles -->
+
+
+
+</main>
+
+
+<!-- Footer -->
+<footer class="bg-dark text-center text-white">
+  <!-- Grid container -->
+  <div class="container p-4 pb-0">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a
+        class="btn btn-primary btn-floating m-1"
+        style="background-color: #3b5998;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+
+      <!-- Twitter -->
+      <a
+        class="btn btn-primary btn-floating m-1"
+        style="background-color: #55acee;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-twitter"></i
+      ></a>
+
+      <!-- Google -->
+      <a
+        class="btn btn-primary btn-floating m-1"
+        style="background-color: #dd4b39;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-google"></i
+      ></a>
+
+      <!-- Instagram -->
+      <a
+        class="btn btn-primary btn-floating m-1"
+        style="background-color: #ac2bac;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-instagram"></i
+      ></a>
+
+      <!-- Linkedin -->
+      <a
+        class="btn btn-primary btn-floating m-1"
+        style="background-color: #0082ca;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-linkedin-in"></i
+      ></a>
+      <!-- Github -->
+      <a
+        class="btn btn-primary btn-floating m-1"
+        style="background-color: #333333;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-github"></i
+      ></a>
+    </section>
+    <!-- Section: Social media -->
+  </div>
+  <!-- Grid container -->
+
+    <!-- Section: Form -->
+    <section class="">
+      <form action="">
+        <!--Grid row-->
+        <div class="row d-flex justify-content-center">
+          <!--Grid column-->
+          <div class="col-auto">
+            <p class="pt-2">
+              <strong>Suscríbete y obtén grandes descuentos</strong>
+            </p>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-5 col-12">
+            <!-- Email input -->
+            <div class="form-outline form-white mb-4">
+              <input type="email" id="form5Example21" class="form-control" />
+              <label class="form-label" for="form5Example21">Dirección de correo</label>
+            </div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-auto">
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-outline-light mb-4">
+              Suscríbete
+            </button>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </form>
+    </section>
+    <!-- Section: Form -->
+    <!-- Section: Links -->
+    <section class="">
+      <!--Grid row-->
+      <div class="row">
+    <!--Grid row-->
+    <div class="row ">
+      <!--Grid column-->
+      <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+        <h5 class="text-uppercase">Quienes somos</h5>
+
+        <p class="">
+          Somos un grupo de amigos que aman el café y la “Confort food”. Hacemos las cosas con profesionalismo y mucho amor. Visítanos, no te arrepentirás!!!
+        </p>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase">De nuestros productos</h5>
+
+        <ul class="list-unstyled mb-0">
+          <li>
+            <a href="#!" class="text-white">Pedidos online</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">Pasteleria</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">La Sanguchera</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">Café de grano envasado</a>
+          </li>
+        </ul>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase mb-0">Contacto</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!" class="text-white">Teléfonos</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">Direcciónes</a>
+          </li>
+          </li>
+        </ul>
+      </div>
+      <!--Grid column-->
+    </div>
+    <!--Grid row-->
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    Página web hecha en Chile por
+    <a class="text-white" href="https://triplew.cl/" target="_blank">TripleW.cl</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!--end footer-->
+</body>
+</html>
